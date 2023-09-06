@@ -10,8 +10,8 @@ public class task1 {
 	 * @return true/false
 	 */
 	
-	public boolean hasSameValue(FRACTION_HERE F) {
-		for(int i = 0; i < ARRAY_HERE.length; i++) {
+	public boolean hasSameValue(Array F) {
+		for(int i = 0; i < F.length; i++) {
 			if(F[i] == F[(i + 1)] ) {
 				return true;
 			}
