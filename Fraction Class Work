@@ -1,0 +1,6 @@
+	public static Fraction plus(Fraction input1, Fraction input2) {
+		int numSum = input1.getNum() + input2.getNum();
+		int denomSum = input1.getDenom() + input2.getDenom();
+		Fraction sum = new Fraction(numSum, denomSum);
+		return sum;
+	}
